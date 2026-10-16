@@ -9,9 +9,9 @@ rng = np.random.default_rng(seed=42)
 # Create a test 10x3 dataframe
 df = pd.DataFrame(
     {
-        "A": np.arange(1, 11),
-        "B": rng.integers(10, 100, size=10),
-        "C": rng.choice(["w", "x", "y", "z"], size=10),
+        "C": np.arange(1, 11),
+        "D": rng.integers(10, 100, size=10),
+        "E": rng.choice(["w", "x", "y", "z"], size=10),
     }
 )
 
